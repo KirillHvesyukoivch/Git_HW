@@ -1,0 +1,21 @@
+Title:
+Payment form fails to process valid credit card (Stripe integration)
+
+Description:
+When a user fills out the payment form with a valid credit card and submits it, the form returns a generic error and the payment is not processed.
+
+Steps to Reproduce:
+
+Go to https://example.com/checkout
+
+Fill in all required billing fields
+
+Enter a valid credit card number (e.g. test Visa 4242 4242 4242 4242)
+
+Click the "Pay Now" button
+
+Expected Result:
+Payment should be processed successfully, and the user should be redirected to the confirmation page.
+
+Actual Result:
+An error message appears: "Something went wrong. Please try again."
