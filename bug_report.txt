@@ -1,1 +1,17 @@
+Title:
+"Submit" button does not work on the contact form
 
+Description:
+When the user fills out the contact form and clicks the "Submit" button, nothing happens — the form is not submitted and no error message is shown.
+
+Steps to Reproduce:
+
+1.Go to https://example.com/contact
+2.Fill out all required fields in the form
+3.Click the "Submit" button
+
+Expected Result:
+The form should be submitted and a success message should appear.
+
+Actual Result:
+Clicking the "Submit" button does nothing.
