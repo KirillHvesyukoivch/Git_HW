@@ -1,0 +1,8 @@
+Title:
+POST /api/users returns 500 error when valid data is submitted
+
+Description:
+When sending a valid JSON payload to the POST /api/users endpoint, the server returns a 500 Internal Server Error instead of creating the user.
+
+Endpoint:
+POST /api/users
